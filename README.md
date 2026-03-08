@@ -28,6 +28,9 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 
 Install-Package Microsoft.EntityFrameworkCore.Tools
 
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+
+
 ## Migration from SQL Server
 
 Add-Migration InitialCreate --> Fisrt step
@@ -43,4 +46,4 @@ Remove-Migration --> Optional step
 - Entity Framework Core
 - SQL Server
 - Postman
-- 
+- Dtos
